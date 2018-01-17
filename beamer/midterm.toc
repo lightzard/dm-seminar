@@ -10,4 +10,6 @@
 \beamer@sectionintoc {4}{Result and Discussion}{24}{0}{4}
 \beamer@subsectionintoc {4}{1}{Result}{24}{0}{4}
 \beamer@subsectionintoc {4}{2}{Discussion}{27}{0}{4}
-\beamer@subsectionintoc {4}{3}{Limitation}{27}{0}{4}
+\beamer@sectionintoc {5}{Conclusion}{34}{0}{5}
+\beamer@subsectionintoc {5}{1}{Conclusion}{34}{0}{5}
+\beamer@subsectionintoc {5}{2}{Future Works}{36}{0}{5}

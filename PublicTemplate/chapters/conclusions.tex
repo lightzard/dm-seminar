@@ -1,1 +1,15 @@
-Write your conclusions here.
+Based on the findings on the previous section, we can summarize it as follows:
+\begin{enumerate}
+	\item There are no single architecture that gives the best performance across all tested dataset.
+	\item LeNet is the most simple yet powerful network.
+	This networks can become the tester network for in an image dataset because of its low time to train and memory to use. We can use LeNet classification result as initial performance benchmarks compared to other sophisticated architecture.
+	\item Simplified VGGNet performs well on grayscale dataset compared to colored-dataset. Also it performs better on smaller image. It can achieve an accuracy of 99.46\% and 91\% on MNIST and Fashion-MNIST dataset respectively.
+	\item ResNetV1 works better in digit recognition compared to object recognition. It can achieve an accuracy of 92.46\% and 86.6\% on MNIST and SVHN dataset.
+	\item ResNetV2 does not always increase the performance of ResNetv1. However, on Fashion MNIST dataset, the improvemance is quite huge, around 25\% accuracy.
+	\item ResNetV2 gives quite good and stable performance compared to other network.
+	\item SqueezeNet consumes the most memory and time to train but does not yields the best classification performance on any dataset.
+	
+\end{enumerate}
+
+\section{Future Works}
+ Further works can be done by doing larger benchmark studies by applying more architecture and more dataset in the experiment. By doing this, we can also verifying the initial findings that was presented in the conclusion. Increasing the number of epoch can be a good way to verify the initial finding that was presented here. Furthermore, we only see memory usage, time consumption and accuracy for the experiment. Other matrices should be explored for future works.

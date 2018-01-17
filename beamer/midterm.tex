@@ -199,23 +199,19 @@ with 784 features (28x28 grayscale images)
 \subsection{Architecture Implementation}
 \begin{frame}\frametitle{LeNet}
 \begin{figure}[h]
-	\includegraphics[scale=0.5]{figures/lenet_arch}
+	\includegraphics[scale=0.5]{figures/lenet_code}
 	\centering
-	\caption{LeNet architecture overview}
 	\label{fig:lenet_arch}
 \end{figure}
 
 \end{frame}
 \begin{frame}\frametitle{VGG-Net}
+We adopt simplified VGG-Net with 4 convolutional layers 
 \begin{figure}[h]
-	\includegraphics[scale=0.5]{figures/vgg_arch}
+	\includegraphics[scale=0.4]{figures/vggnet_code}
 	\centering
-	\caption{VGG-Net architecture overview}
 	\label{fig:vggnet_arch}
 \end{figure}
-\begin{itemize}
-	\item We adopt simplified VGG-Net with 4 convolutional layers 
-\end{itemize} 
 \end{frame}
 \begin{frame}\frametitle{ResNetV1}
 \begin{itemize}
@@ -325,14 +321,90 @@ with 784 features (28x28 grayscale images)
 \end{frame}
 
 \subsection{Discussion}
-"How does the performance comparison of deep learning architecture
+\begin{frame}
+Main Question: "How does the performance comparison of deep learning architecture
 model looks like for a given image classification dataset?"
 \begin{itemize}
-	\item The architecture consists of convoultional layer and fire module.  
-	\item  A fire module consists of 1x1 convolutional layer followed by a mix of 1x1 and 3x3 convolution layer.
-	\item Then, it gradually increase the number of filters per fire module from the beginning to the end of the network.
-	\item SqueezeNet performs max-pooling with a stride of 2 after layers conv1, fire4, fire8, and conv10.
+	\item From the execution time, it is shown that LeNet is the fastest network to train (around 22 seconds/epoch) followed by Simplified VGG-Net and Resnet20V1. 
+	\item ResNet20V2 and SqueezeNet are the most time consuming network to train. 
+	\item LeNet is also the least memory consuming network, followed by ResNet20V1, ResNet20V2, SqueezeNet and Simplified VGG network respectively. 
+	\item In terms of accuracy, there are no single architecture that produces the best result for each datasets. 
 \end{itemize} 
-\subsection{Limitation}
+\end{frame}
+\begin{frame}
+SQ 1: Which architecture that works bests for a given datasets?
+\begin{itemize}
+	\item We can see that Simplified VGG architecture performs best on MNIST and Fashion MNIST dataset. 
+	\item ResNet20V1 and ResNet20V2 performs best on CIFAR-10 and SVHN dataset respectively. 
+	\item In terms of memory usage and time consumption, it is shown that LeNet produces the simplest network for all datasets.
+\end{itemize}
+\end{frame}
+\begin{frame}
+SQ 2: What kind of datasets characteristics that makes a deep learning architecture works well?
+\begin{itemize}
+	\item LeNet generally works well across all dataset except CIFAR-10. With a low amount of training time and low memory consumption, this network can be an initial tester for classifying an image dataset.
+	\item Simplified VGGNet performs well on grayscale dataset: MNIST and Fashion-MNIST but gives low accuracy for colored dataset: CIFAR-10 and SVHN dataset. This is an indication that maybe VGG-like architecture performs better on grayscale dataset compared to colored dataset. Also since CIFAR-10 and SVHN image size are bigger than MNIST and Fashion-MNIST, it could be an indication that Simplified VGG-Net works better on smaller image dataset.
+\end{itemize}
+\end{frame}
+\begin{frame}
+SQ 2: What kind of datasets characteristics that makes a deep learning architecture works well?
+\begin{itemize}
+	\item ResNet20v1 gives high accuracy in digit recognition dataset: MNIST and SVHN but performs worse on object recognition dataset: Fashion-MNIST and CIFAR-10. It could be that the architecture is suitable for digit recognition dataset compared to object-recognition dataset.
+	\item 	ResNet20v2 which is a refinement from ResNet20v1 does not always increase the performance of ResNet20v1. However, on Fashion MNIST dataset, the improvemance is quite huge, around 25\% accuracy. This architecture gives the most stable performance compared to other architecture, with the lowest accuracy is 67.9\% on CIFAR-10 dataset. 
+\end{itemize}
+\end{frame}
+\begin{frame}
+SQ 2: What kind of datasets characteristics that makes a deep learning architecture works well?
+\begin{itemize}
+	\item SqueezeNet is the most time consuming network to train, however it does not yields the best solution for any dataset. We need to test it on bigger epoch and see whether it can produces better result or not. If it is indeed yields a better result, then we could say that this architecture has slow improvement rate for every epoch. If is not, then we could say that this architecture is not suitable for these datasets. 
+\end{itemize}
+\end{frame}
+\begin{frame}
+SQ 3: Is there any architecture that generally works well for image classification?
+	
+	There are not a single architecture that gives best performance across all datasets. However, based on table \ref{tab:accuracy} we can see that in general, ResNet20v2 gives the most stable and good performance on average across all datasets. This does not means that this architecture always gives stable and good performance on most datasets. Further experiment needs to be done to confirm this findings.
+\end{frame}
+
+	
+
+
+\begin{frame}\frametitle{Limitation}
+\begin{itemize}
+	\item Due to the time and hardware contraint, this studies was conducted only on 4 datasets and 5 architectures.
+	\item  A more powerful machine/hardware is needed to do further benchmarking studies. As an example, applying ResNet20V1 on CIFAR-10 dataset, using current machine took 720 seconds/epoch while applying it on GTX1080Ti took 35 seconds/epoch (according to \href{https://github.com/keras-team/keras/blob/master/examples/cifar10\_resnet.py}{https://github.com/keras-team/keras/blob/master/examples/cifar10\_resnet.py}).
+	\item  Faster experiment means better classification performance and more architecture and dataset that could be implemented. 
+\end{itemize}
+\end{frame}
+
+\section{Conclusion}
+\subsection{Conclusion}
+\begin{frame}\frametitle{Conclusion}
+\begin{enumerate}
+	\item There are no single architecture that gives the best performance across all tested dataset.
+	\item LeNet is the most simple yet powerful network.
+	This networks can become the tester network for in an image dataset because of its low time to train and memory to use. We can use LeNet classification result as initial performance benchmarks compared to other sophisticated architecture.
+	\item Simplified VGGNet performs well on grayscale dataset compared to colored-dataset. Also it performs better on smaller image. It can achieve an accuracy of 99.46\% and 91\% on MNIST and Fashion-MNIST dataset respectively.
+	
+\end{enumerate}
+\end{frame}
+
+\begin{frame}\frametitle{Conclusion}
+\begin{enumerate}
+	\setcounter{enumi}{3}
+	\item ResNetV1 works better in digit recognition compared to object recognition. It can achieve an accuracy of 92.46\% and 86.6\% on MNIST and SVHN dataset.
+	\item ResNetV2 does not always increase the performance of ResNetv1. However, on Fashion MNIST dataset, the improvemance is quite huge, around 25\% accuracy.
+	\item ResNetV2 gives quite good and stable performance compared to other network.
+	\item SqueezeNet consumes the most memory and time to train but does not yields the best classification performance on any dataset.
+\end{enumerate}
+\end{frame}
+\subsection{Future Works}
+\begin{frame}\frametitle{Future Works}
+\begin{itemize}
+	 \item Further works can be done by doing larger benchmark studies by applying more architecture and more dataset in the experiment. 
+	 \item By doing this, we can also verifying the initial findings that was presented in the conclusion. Increasing the number of epoch can be a good way to verify the initial finding that was presented here. 
+	 \item Furthermore, we only see memory usage, time consumption and accuracy for the experiment. Other matrices should be explored for future works.
+\end{itemize}
+\end{frame}
+
 
 \end{document}

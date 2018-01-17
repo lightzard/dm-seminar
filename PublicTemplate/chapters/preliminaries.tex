@@ -33,15 +33,15 @@ Alex Net was proposed by Alex Krizhevsky, et al. \cite{krizhevsky2012imagenet} b
 	\caption{Alex Net Architecture \cite{krizhevsky2012imagenet}}
 	\label{fig:alexnet}
 \end{figure}
-\subsection{ZF-Net}
-ZF-Net was proposed by Zeiler and Fergus \cite{zeiler2014visualizing}. It was the winner of ILSVRC 2013. ZF-Net is a modification from Alex-Net. One of the differences between ZF-Net and Alex-Net is the filter size in the first layer, instead of using 11x11 with stride 4 like Alex-Net did, ZF-Net using 7x7 filter size with stride 2. The full architecture of ZF-Net can bee seen in figure \ref{fig:zf}. It was tested on the ILSVRC 2012 dataset and achieved 11.2\% error rate.
+%\subsection{ZF-Net}
+%ZF-Net was proposed by Zeiler and Fergus \cite{zeiler2014visualizing}. It was the winner of ILSVRC 2013. ZF-Net is a modification from Alex-Net. One of the differences between ZF-Net and Alex-Net is the filter size in the first layer, instead of using 11x11 with stride 4 like Alex-Net did, ZF-Net using 7x7 filter size with stride 2. The full architecture of ZF-Net can bee seen in figure \ref{fig:zf}. It was tested on the ILSVRC 2012 dataset and achieved 11.2\% error rate.
 
-\begin{figure}[h]
-	\includegraphics[scale=0.5]{figures/zfnet}
-	\centering
-	\caption{ZF Net Architecture \cite{zeiler2014visualizing}}
-	\label{fig:zf}
-\end{figure}
+%\begin{figure}[h]
+%	\includegraphics[scale=0.5]{figures/zfnet}
+%	\centering
+%	\caption{ZF Net Architecture \cite{zeiler2014visualizing}}
+%	\label{fig:zf}
+%\end{figure}
 
 
 \subsection{VGG Net}
@@ -56,7 +56,7 @@ VGG Net was proposed by Karen Simonyan and Andrew Zisserman \cite{simonyan2014ve
 
 
 \subsection{ResNet}
-In 2015, Microsoft proposed a very deep architecture called ResNet \cite{he2016deep}. It can go up to 1202 layers, but the best results for CIFAR-10 dataset is 6.43\% error rate by using 110 layers. The idea behind ResNet is stacking convolutional layer with 3x3 filter size until it reaches a very deep network.  
+In 2015, Microsoft proposed a very deep architecture called ResNet \cite{he2016deep}. It can go up to 1202 layers, but the best results for CIFAR-10 dataset is 6.43\% error rate by using 110 layers. The idea behind ResNet is stacking convolutional layer with 3x3 filter size until it reaches a very deep network. This initial version of ResNet also called ResNetV1. In 2016, ResNetV2 is introduced \cite{he2016identity} as improvement from ResNetV1.
 
 %\subsection{Simple Net}
 
@@ -100,23 +100,23 @@ The classes are completely mutually exclusive. For example, there is no overlap 
 	\label{fig:cifar10}
 \end{figure}
 
-\subsection{CIFAR-100}
-CIFAR-100 \cite{krizhevsky2009learning} dataset is just like the CIFAR-10, except it has 100 classes containing 600 images each. There are 500 training images and 100 testing images per class. The 100 classes in the CIFAR-100 are grouped into 20 superclasses. Each image comes with a "fine" label (the class to which it belongs) and a "coarse" label (the superclass to which it belongs).
+%\subsection{CIFAR-100}
+%CIFAR-100 \cite{krizhevsky2009learning} dataset is just like the CIFAR-10, except it has 100 classes containing 600 images each. There are 500 training images and 100 testing images per class. The 100 classes in the CIFAR-100 are grouped into 20 superclasses. Each image comes with a "fine" label (the class to which it belongs) and a "coarse" label (the superclass to which it belongs).
 
-\subsection{STL-10}
-STL-10 dataset \cite{coates2011analysis} is an image recognition dataset that were acquired from labeled examples on ImageNet. It is inspired by the CIFAR-10 dataset but with some modifications. In particular, each class has fewer labeled training examples than in CIFAR-10, but a very large set of unlabeled examples is provided to learn image models prior to supervised training. 
+%\subsection{STL-10}
+%STL-10 dataset \cite{coates2011analysis} is an image recognition dataset that were acquired from labeled examples on ImageNet. It is inspired by the CIFAR-10 dataset but with some modifications. In particular, each class has fewer labeled training examples than in CIFAR-10, but a very large set of unlabeled examples is provided to learn image models prior to supervised training. The primary challenge is to make use of the unlabeled data (which comes from a similar but different distribution from the labeled data) to build a useful prior. We also expect that the higher resolution of this dataset (96x96) will make it a challenging benchmark for developing more scalable unsupervised learning methods.
 
-There are 10 classes in this dataset: airplane, bird, car, cat, deer, dog, horse, monkey, ship, truck. Each images are colored 96x96 pixels.
-500 training images (10 pre-defined folds), 800 test images per class.
-100000 unlabeled images for unsupervised learning. These examples are extracted from a similar but broader distribution of images. For instance, it contains other types of animals (bears, rabbits, etc.) and vehicles (trains, buses, etc.) in addition to the ones in the labeled set.
+%There are 10 classes in this dataset: airplane, bird, car, cat, deer, dog, horse, monkey, ship, truck. Each images are colored 96x96 pixels.
+%500 training images (10 pre-defined folds), 800 test images per class.
+%100000 unlabeled images for unsupervised learning. These examples are extracted from a similar but broader distribution of images. For instance, it contains other types of animals (bears, rabbits, etc.) and vehicles (trains, buses, etc.) in addition to the ones in the labeled set.
 
 
-\begin{figure}[h]
-	\includegraphics[scale=0.3]{figures/stl}
-	\centering
-	\caption{Examples of STL-10 datasets \cite{coates2011analysis}}
-	\label{fig:svhn}
-\end{figure}
+%\begin{figure}[h]
+%	\includegraphics[scale=0.3]{figures/stl}
+%	\centering
+%	\caption{Examples of STL-10 datasets \cite{coates2011analysis}}
+%	\label{fig:svhn}
+%\end{figure}
 
 \subsection{SVHN}
 The Street View House Numbers (SVHN) Dataset \cite{netzer2011reading} is a dataset obtained from house numbers in Google Street View images. It is similar to MNIST (e.g., the images are of small cropped digits), but incorporates an order of magnitude more labeled data (over 600,000 digit images) and comes from a significantly harder, unsolved, real world problem (recognizing digits and numbers in natural scene images).

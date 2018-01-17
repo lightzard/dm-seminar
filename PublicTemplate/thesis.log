@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.15)  4 DEC 2017 22:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.15)  17 JAN 2018 17:16
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -617,33 +617,30 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 ("D:\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-)) (thesis.aux (titlepage.aux)
-
-LaTeX Warning: Label `fig:svhn' multiply defined.
-
-)
+)) (thesis.aux (titlepage.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 44.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 44.
- ("D:\MiKTeX 2.9\tex\latex\cbfonts-fd\lgrcmr.fd"
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 45.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 45.
+
+("D:\MiKTeX 2.9\tex\latex\cbfonts-fd\lgrcmr.fd"
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
 
 ("D:\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -672,7 +669,7 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 \AtBeginShipoutBox=\box39
-Package hyperref Info: Link coloring ON on input line 44.
+Package hyperref Info: Link coloring ON on input line 45.
 
 ("D:\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -682,9 +679,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count184
 )
-LaTeX Info: Redefining \ref on input line 44.
-LaTeX Info: Redefining \pageref on input line 44.
-LaTeX Info: Redefining \nameref on input line 44.
+LaTeX Info: Redefining \ref on input line 45.
+LaTeX Info: Redefining \pageref on input line 45.
+LaTeX Info: Redefining \nameref on input line 45.
  (thesis.out)
 (thesis.out)
 \@outlinefile=\write3
@@ -700,7 +697,7 @@ Package caption Info: End \AtBeginDocument code.
 \openout2 = `titlepage.aux'.
 
  (titlepage.tex
-<figures/tue-logo-high.png, id=79, 2004.48875pt x 426.59375pt>
+<figures/tue-logo-high.png, id=114, 2004.48875pt x 426.59375pt>
 File: figures/tue-logo-high.png Graphic file (type png)
 
 <use figures/tue-logo-high.png>
@@ -729,7 +726,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 ]
 Chapter 2.
 (chapters/preliminaries.tex
-<figures/lenet5.png, id=125, 761.84625pt x 209.78375pt>
+<figures/lenet5.png, id=169, 761.84625pt x 209.78375pt>
 File: figures/lenet5.png Graphic file (type png)
 
 <use figures/lenet5.png>
@@ -739,7 +736,7 @@ Package pdftex.def Info: figures/lenet5.png used on input line 21.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/alexnet.png, id=130, 1715.40875pt x 544.0325pt>
+<figures/alexnet.png, id=174, 1715.40875pt x 544.0325pt>
 File: figures/alexnet.png Graphic file (type png)
 
 <use figures/alexnet.png>
@@ -752,105 +749,183 @@ Overfull \hbox (4.2649pt too wide) in paragraph at lines 31--33
 
 [2
 
-] <figures/zfnet.png, id=142, 696.35156pt x 186.6975pt>
-File: figures/zfnet.png Graphic file (type png)
-
-<use figures/zfnet.png>
-Package pdftex.def Info: figures/zfnet.png used on input line 40.
-(pdftex.def)             Requested size: 348.17493pt x 93.34851pt.
- [3 <./figures/lenet5.png> <./figures/alexnet.png> <./figures/zfnet.png>] <figu
-res/vggnet.png, id=158, 476.78125pt x 481.8pt>
+] <figures/vggnet.png, id=186, 476.78125pt x 481.8pt>
 File: figures/vggnet.png Graphic file (type png)
 
 <use figures/vggnet.png>
 Package pdftex.def Info: figures/vggnet.png used on input line 51.
 (pdftex.def)             Requested size: 238.39003pt x 240.8994pt.
- <figures/mnist.png, id=163, 531.9875pt x 298.11375pt>
-File: figures/mnist.png Graphic file (type png)
-
-<use figures/mnist.png>
-Package pdftex.def Info: figures/mnist.png used on input line 71.
-(pdftex.def)             Requested size: 159.59747pt x 89.43481pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4 <./figures/vggnet.png (PNG copy)>]
-<figures/fashion-mnist.png, id=172, 607.068pt x 607.068pt>
+[3 <./figures/lenet5.png> <./figures/alexnet.png>]
+<figures/mnist.png, id=203, 531.9875pt x 298.11375pt>
+File: figures/mnist.png Graphic file (type png)
+ <use figures/mnist.png>
+Package pdftex.def Info: figures/mnist.png used on input line 71.
+(pdftex.def)             Requested size: 159.59747pt x 89.43481pt.
+
+[4 <./figures/vggnet.png (PNG copy)> <./figures/mnist.png (PNG copy)>]
+<figures/fashion-mnist.png, id=211, 607.068pt x 607.068pt>
 File: figures/fashion-mnist.png Graphic file (type png)
 
 <use figures/fashion-mnist.png>
 Package pdftex.def Info: figures/fashion-mnist.png used on input line 82.
 (pdftex.def)             Requested size: 182.1218pt x 182.1218pt.
 
-<figures/cifar10.png, id=177, 370.38374pt x 276.28218pt>
+<figures/cifar10.png, id=216, 370.38374pt x 276.28218pt>
 File: figures/cifar10.png Graphic file (type png)
 
 <use figures/cifar10.png>
 Package pdftex.def Info: figures/cifar10.png used on input line 97.
 (pdftex.def)             Requested size: 185.1914pt x 138.14075pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[5 <./figures/mnist.png (PNG copy)> <./figures/fashion-mnist.png>]
-<figures/stl.png, id=191, 546.843pt x 547.646pt>
-File: figures/stl.png Graphic file (type png)
- <use figures/stl.png>
-Package pdftex.def Info: figures/stl.png used on input line 115.
-(pdftex.def)             Requested size: 164.05415pt x 164.29506pt.
- [6 <./figures/cifar10.png> <./figures/stl.png (PNG copy)>]
-<figures/svhn.png, id=203, 341.275pt x 341.275pt>
+ [5 <./figures/fashion-mnist.png> <./figures/cifar10.png>] <figures/svhn.png, i
+d=230, 341.275pt x 341.275pt>
 File: figures/svhn.png Graphic file (type png)
  <use figures/svhn.png>
 Package pdftex.def Info: figures/svhn.png used on input line 127.
 (pdftex.def)             Requested size: 170.63707pt x 170.63707pt.
 )
-(thesis.bbl (thesis.brf)
+[6 <./figures/svhn.png (PNG copy)>]
+Chapter 3.
+(chapters/first_real_chapter.tex
+Missing character: There is no Â in font cmr10!
+Missing character: There is no ® in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no „ in font cmr10!
+Missing character: There is no ¢ in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no ® in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no ® in font cmr10!
+
+<figures/lenet_arch.png, id=243, 385.44pt x 212.29312pt>
+File: figures/lenet_arch.png Graphic file (type png)
+
+<use figures/lenet_arch.png>
+Package pdftex.def Info: figures/lenet_arch.png used on input line 28.
+(pdftex.def)             Requested size: 192.71953pt x 106.1463pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7
+
+] <figures/vgg_arch.png, id=256, 386.94562pt x 415.5525pt>
+File: figures/vgg_arch.png Graphic file (type png)
+
+<use figures/vgg_arch.png>
+Package pdftex.def Info: figures/vgg_arch.png used on input line 38.
+(pdftex.def)             Requested size: 193.47234pt x 207.77574pt.
+ [8 <./figures/lenet_arch.png> <./figures/vgg_arch.png>] <figures/squeezenet.pn
+g, id=270, 339.51843pt x 627.09282pt>
+File: figures/squeezenet.png Graphic file (type png)
+
+<use figures/squeezenet.png>
+Package pdftex.def Info: figures/squeezenet.png used on input line 56.
+(pdftex.def)             Requested size: 169.75879pt x 313.54564pt.
+) [9 <./figures/squeezenet.png>]
+Chapter 4.
+(chapters/second_real_chapter.tex
+<figures/params.png, id=292, 639.38875pt x 346.29375pt>
+File: figures/params.png Graphic file (type png)
+
+<use figures/params.png>
+Package pdftex.def Info: figures/params.png used on input line 49.
+(pdftex.def)             Requested size: 319.69359pt x 173.14644pt.
+ [10
+
+ <./figures/params.png>] [11])
+Overfull \hbox (12.42853pt too wide) in paragraph at lines 84--116
+\OT1/cmr/m/n/10 poch while ap-ply-ing it on GTX1080Ti took 35 second-s/e-poch (
+ac-cord-ing to [][]https://github.com/keras-
+ []
+
+[12]
+Chapter 5.
+(chapters/conclusions.tex) (thesis.bbl (thesis.brf)
 \tf@brf=\write5
 \openout5 = `thesis.brf'.
 
- [7 <./figures/svhn.png (PNG copy)>])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 137.
- [8
+ [13
+
+]) (appendices/main.tex
+[14
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 137.
- (thesis.aux
-(titlepage.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 137.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 137.
+Appendix A.
+("D:\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 2.
+ [15
+
+]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 61.
+
+("D:\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 61.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 84.
+
+("D:\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <8> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 84.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
+[20]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21]
+[22])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 143.
+ [23]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 143.
+ (thesis.aux (titlepage.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 143.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 143.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 973C10B5DFAAB7E3F072677A3C3C6D45;1126.
-
-
-Package rerunfilecheck Warning: File `thesis.brf' has changed.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `thesis.brf':
-(rerunfilecheck)             Before: 02A2FD2E720DF151D320657093113652;1164
-(rerunfilecheck)             After:  A5D5A61C050A8330C4FCD2EB254247F8;1164.
-
-LaTeX Warning: There were multiply-defined labels.
-
+(rerunfilecheck)             Checksum: 4EB7DE910C4B23A16C81C4E564936DAC;1652.
+Package rerunfilecheck Info: File `thesis.brf' has not changed.
+(rerunfilecheck)             Checksum: D5BB63D8F4BE53AED0CB1B7203CF5317;1009.
  ) 
 Here is how much of TeX's memory you used:
- 12297 strings out of 493323
- 184872 string characters out of 3145100
- 326127 words of memory out of 3000000
- 15512 multiletter control sequences out of 15000+200000
- 11672 words of font info for 41 fonts, out of 3000000 for 9000
+ 13294 strings out of 493323
+ 199445 string characters out of 3145100
+ 627127 words of memory out of 3000000
+ 15936 multiletter control sequences out of 15000+200000
+ 11840 words of font info for 42 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,12n,98p,1098b,393s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 68i,12n,98p,1156b,1909s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmbx12.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmr10.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><D:/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmti10.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.
-pfb>
-Output written on thesis.pdf (10 pages, 2866629 bytes).
+/cm/cmmi10.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmr12.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb
+><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><D:/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmsy8.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmti10.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><D:/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on thesis.pdf (25 pages, 1787481 bytes).
 PDF statistics:
- 269 PDF objects out of 1000 (max. 8388607)
- 52 named destinations out of 1000 (max. 500000)
- 203 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1055 PDF objects out of 1200 (max. 8388607)
+ 603 named destinations out of 1000 (max. 500000)
+ 285 words of extra memory for PDF output out of 10000 (max. 10000000)
 

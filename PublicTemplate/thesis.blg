@@ -1,52 +1,9 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: thesis.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: titlepage.aux
 The style file: plain.bst
 Database file #1: references.bib
 Warning--entry type for "xiao2017/online" isn't style-file defined
---line 143 of file references.bib
+--line 72 of file references.bib
 Warning--empty journal in krizhevsky2009learning
 Warning--can't use both volume and number fields in netzer2011reading
-You've used 8 entries,
-            2118 wiz_defined-function locations,
-            544 strings with 5544 characters,
-and the built_in function-call counts, 3025 in all, are:
-= -- 280
-> -- 174
-< -- 4
-+ -- 68
-- -- 60
-* -- 210
-:= -- 497
-add.period$ -- 23
-call.type$ -- 8
-change.case$ -- 54
-chr.to.int$ -- 0
-cite$ -- 10
-duplicate$ -- 113
-empty$ -- 218
-format.name$ -- 60
-if$ -- 631
-int.to.chr$ -- 0
-int.to.str$ -- 8
-missing$ -- 7
-newline$ -- 42
-num.names$ -- 16
-pop$ -- 67
-preamble$ -- 1
-purify$ -- 46
-quote$ -- 0
-skip$ -- 92
-stack$ -- 0
-substring$ -- 145
-swap$ -- 35
-text.length$ -- 4
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 32
-warning$ -- 2
-while$ -- 25
-width$ -- 9
-write$ -- 84
 (There were 3 warnings)

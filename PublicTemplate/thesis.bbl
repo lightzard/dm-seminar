@@ -1,17 +1,23 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{ciregan2012multi}
+Dan Ciregan, Ueli Meier, and J{\"u}rgen Schmidhuber.
+\newblock Multi-column deep neural networks for image classification.
+\newblock In {\em Computer Vision and Pattern Recognition (CVPR), 2012 IEEE
+  Conference on}, pages 3642--3649. IEEE, 2012.
+
+\bibitem{coates2011analysis}
+Adam Coates, Andrew Ng, and Honglak Lee.
+\newblock An analysis of single-layer networks in unsupervised feature
+  learning.
+\newblock In {\em Proceedings of the fourteenth international conference on
+  artificial intelligence and statistics}, pages 215--223, 2011.
 
 \bibitem{he2016deep}
 Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.
 \newblock Deep residual learning for image recognition.
 \newblock In {\em Proceedings of the IEEE conference on computer vision and
   pattern recognition}, pages 770--778, 2016.
-
-\bibitem{SqueezeNet}
-Forrest~N. Iandola, Song Han, Matthew~W. Moskewicz, Khalid Ashraf, William~J.
-  Dally, and Kurt Keutzer.
-\newblock Squeezenet: Alexnet-level accuracy with 50x fewer parameters and
-  $<$0.5mb model size.
-\newblock {\em arXiv:1602.07360}, 2016.
 
 \bibitem{krizhevsky2009learning}
 Alex Krizhevsky and Geoffrey Hinton.
@@ -45,5 +51,11 @@ Karen Simonyan and Andrew Zisserman.
 Han Xiao, Kashif Rasul, and Roland Vollgraf.
 \newblock Fashion-mnist: a novel image dataset for benchmarking machine
   learning algorithms, 2017.
+
+\bibitem{zeiler2014visualizing}
+Matthew~D Zeiler and Rob Fergus.
+\newblock Visualizing and understanding convolutional networks.
+\newblock In {\em European conference on computer vision}, pages 818--833.
+  Springer, 2014.
 
 \end{thebibliography}

@@ -1,0 +1,33 @@
+%experiment
+\section{Experiment Setup}
+All of the experiment is executed on portable computer with specification as follows:
+\begin{center}
+	\begin{tabular}{| c| c| }
+		Processor & Intel® Core™ i7 6700HQ Processor\\ 
+		RAM & 8.0 GB \\  
+		GPU & NVIDIA® GeForce® GTX 960M \\
+		VRAM & 2.0 GB     
+	\end{tabular}
+\end{center}
+
+For training process, we use Keras with TensorFlow as backend library. Python version that was used is 3.6. For every experiment, we limit it to 10 epochs since the amount to train 1 epoch is quite high.
+
+\subsection{Architecture Implementation}
+Since we are testing on a less powerful machine, we have to adjust the implementation of the architecture as follows \ref{code:lenet}
+\subsubsection{LeNet}
+We are not making any adjustment on implementing LeNet from its original version since the network itself is quite simple and straightforward. 
+\ref{code:lenet}
+\subsubsection{VGG-Net}
+
+\subsubsection{ResNet V1}
+
+\subsubsection{ResNet V2}
+Implementing ResNet V2 is the same as ResNetV1. We just need to change the parameter of n=2 (so that the depth is equal to 20) and version=2.
+\subsubsection{AlexNet/SqueezeNet}
+Initially we plan to implement AlexNet. But, when we try to implement it on the current machine we failed to implement it because of hardware restriction. Then, we discover SqueezeNet \cite{SqueezeNet}.
+
+\subsection{Dataset Preprocessing}
+MNIST, Fashion MNIST and CIFAR-10 dataset are available directly from {\tt{keras.datasets}} package. The code to load these 3 datasets can be seen on Appendix \ref{code:mnist}, \ref{code:fashionmnist} and \ref{code:cifar10} respectively. As we can see from these codes, the only pre-processing steps applied for these 3 datasets are reshaping input to (28,28,1) (for MNIST and Fashion-MNIST) and converting classes from numerical type to categorical type.
+
+
+

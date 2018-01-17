@@ -1,0 +1,8 @@
+\select@language {british}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces LeNet-5 Architecture \cite {lecun1998gradient}\relax }}{3}{figure.caption.9}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Alex Net Architecture \cite {krizhevsky2012imagenet}\relax }}{4}{figure.caption.11}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces VGG Net Configuration \cite {simonyan2014very}\relax }}{4}{figure.caption.13}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces VGG Net Configuration \cite {krizhevsky2009learning}\relax }}{5}{figure.caption.21}
+\addvspace {10\p@ }

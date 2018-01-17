@@ -1,0 +1,49 @@
+\begin{thebibliography}{1}
+
+\bibitem{he2016deep}
+Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.
+\newblock Deep residual learning for image recognition.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 770--778, 2016.
+
+\bibitem{SqueezeNet}
+Forrest~N. Iandola, Song Han, Matthew~W. Moskewicz, Khalid Ashraf, William~J.
+  Dally, and Kurt Keutzer.
+\newblock Squeezenet: Alexnet-level accuracy with 50x fewer parameters and
+  $<$0.5mb model size.
+\newblock {\em arXiv:1602.07360}, 2016.
+
+\bibitem{krizhevsky2009learning}
+Alex Krizhevsky and Geoffrey Hinton.
+\newblock Learning multiple layers of features from tiny images.
+\newblock 2009.
+
+\bibitem{krizhevsky2012imagenet}
+Alex Krizhevsky, Ilya Sutskever, and Geoffrey~E Hinton.
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock In {\em Advances in neural information processing systems}, pages
+  1097--1105, 2012.
+
+\bibitem{lecun1998gradient}
+Yann LeCun, L{\'e}on Bottou, Yoshua Bengio, and Patrick Haffner.
+\newblock Gradient-based learning applied to document recognition.
+\newblock {\em Proceedings of the IEEE}, 86(11):2278--2324, 1998.
+
+\bibitem{netzer2011reading}
+Yuval Netzer, Tao Wang, Adam Coates, Alessandro Bissacco, Bo~Wu, and Andrew~Y
+  Ng.
+\newblock Reading digits in natural images with unsupervised feature learning.
+\newblock In {\em NIPS workshop on deep learning and unsupervised feature
+  learning}, volume 2011, page~5, 2011.
+
+\bibitem{simonyan2014very}
+Karen Simonyan and Andrew Zisserman.
+\newblock Very deep convolutional networks for large-scale image recognition.
+\newblock {\em arXiv preprint arXiv:1409.1556}, 2014.
+
+\bibitem{xiao2017/online}
+Han Xiao, Kashif Rasul, and Roland Vollgraf.
+\newblock Fashion-mnist: a novel image dataset for benchmarking machine
+  learning algorithms, 2017.
+
+\end{thebibliography}

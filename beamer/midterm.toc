@@ -1,0 +1,13 @@
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Context \& Motivation }{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Research Question}{5}{0}{1}
+\beamer@sectionintoc {2}{Literature Study}{6}{0}{2}
+\beamer@subsectionintoc {2}{1}{Deep Learning}{6}{0}{2}
+\beamer@subsectionintoc {2}{2}{Datasets}{11}{0}{2}
+\beamer@sectionintoc {3}{Experiment}{15}{0}{3}
+\beamer@subsectionintoc {3}{1}{Architecture Implementation}{15}{0}{3}
+\beamer@subsectionintoc {3}{2}{Data Preprocessing}{22}{0}{3}
+\beamer@sectionintoc {4}{Result and Discussion}{24}{0}{4}
+\beamer@subsectionintoc {4}{1}{Result}{24}{0}{4}
+\beamer@subsectionintoc {4}{2}{Discussion}{27}{0}{4}
+\beamer@subsectionintoc {4}{3}{Limitation}{27}{0}{4}

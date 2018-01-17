@@ -1,0 +1,6 @@
+\frametitle{MNIST, Fashion-MNIST, CIFAR-10}
+\begin{figure}[h]
+	\includegraphics[scale=0.3]{figures/loaddata}
+	\centering
+	\label{fig:loaddata}
+\end{figure}
